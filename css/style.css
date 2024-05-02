@@ -1,0 +1,126 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: 1s ease;
+}
+/* START OF LOGIN */
+.body-login {
+  font-family: "Poppins", sans-serif;
+  background: #ececec;
+}
+.box-area {
+  width: 30px;
+}
+.right-box {
+  padding: 40px 30px 40px 40px;
+}
+::placeholder {
+  font-size: 16px;
+}
+
+
+@media only screen and(max-width: 768px) {
+  .box-area {
+    margin: 0 10px;
+  }
+}
+/* START OF INDEX */
+.span-in1 {
+  color: rgb(83, 237, 78);
+  padding-left: 30px;
+}
+.hero-in {
+  background-image: url('../img/Durian.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  background-color: #fffbe1ff;
+}
+.span-in2 {
+  color: #34823fff;
+  font-size: 25px;
+}
+.h1-in1 {
+  text-align: center;
+}
+.p-in2 {
+  text-align: center;
+}
+.img-in2 {
+  height: 240px;
+}
+.p-in1 {
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .img-in2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .hero-section1 {
+    background-image: url(/img/fruit.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .span-in1 {
+    color: rgb(83, 237, 78);
+    padding-left: 30px;
+    text-align: center;
+  }
+  .hero-in {
+    background-image: url('../img/durianinfo-durian-shapes-sizes.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+  }
+}
+@media (min-width: 992px) {
+  .div-in1 {
+    float: left;
+  }
+}
+
+/* END OF INDEX */
+
+.span-ab-1 {
+  color: white;
+}
+.h1-ab-1 {
+  text-align: center;
+}
+.hero-about {
+ background-color: aquamarine;
+}
+.img-ab-1 {
+  height: 200px;
+  padding-left: 70px;
+}
+.h3-ab-1 {
+  text-align: center;
+}
+.p-ab-2 {
+  padding: 10px;
+}
+.h1-ab-2 {
+  text-align: center;
+}
+/* CONTACT */
+.span-con {
+  color: rgb(83, 237, 78);
+}
+.div-con1 {
+  background-image: url(/img/12227ff436f078f7b473812460af7c23.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
